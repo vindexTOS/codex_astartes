@@ -1,41 +1,20 @@
 {
   "main": {
-    "id": "1f6088365356d5c5",
+    "id": "365cd8707c1119d6",
     "type": "split",
     "children": [
       {
-        "id": "2f862fa6eba2897f",
+        "id": "7f3b85e0b265b01a",
         "type": "tabs",
         "children": [
           {
-            "id": "db007e6f7bdbb891",
+            "id": "5bcccc6e9436c1bf",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "language_specs/Js/Node/Questions.canvas",
-                "viewState": {
-                  "x": -2869.3831679016253,
-                  "y": -1587.4252913824007,
-                  "zoom": -2.666666666666666
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Questions"
-            }
-          },
-          {
-            "id": "5ffdceb391737503",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "language_specs/Js/Node/worker_thread.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "worker_thread"
+              "title": "New tab"
             }
           }
         ]
@@ -44,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "0aa12763cfde52b9",
+    "id": "50629e6eb242e18f",
     "type": "split",
     "children": [
       {
-        "id": "f6a3746017fd289f",
+        "id": "69d9becbb1503e7e",
         "type": "tabs",
         "children": [
           {
-            "id": "e94dcf376f0959b7",
+            "id": "69dfff0f20ba288a",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -65,7 +44,7 @@
             }
           },
           {
-            "id": "12656d31cb19814f",
+            "id": "46e1ca410a07cf10",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -82,7 +61,7 @@
             }
           },
           {
-            "id": "7dde97693ecf8e7f",
+            "id": "eb4ef03a9f246c85",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -95,23 +74,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 501.5
+    "width": 300
   },
   "right": {
-    "id": "2ae3556d5f8f156f",
+    "id": "4dd8642f2d7785a2",
     "type": "split",
     "children": [
       {
-        "id": "433193c58287db4c",
+        "id": "a66fbd6e09d43131",
         "type": "tabs",
         "children": [
           {
-            "id": "79d9b4b1e97c71ac",
+            "id": "7407c77938ef8b3c",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "language_specs/Js/Node/EVENT_LOOP.canvas",
+                "file": "Untitled.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,25 +100,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for EVENT_LOOP"
+              "title": "Backlinks for Untitled"
             }
           },
           {
-            "id": "94aca4451f71314a",
+            "id": "c9c90434493fb91c",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "language_specs/Js/Node/EVENT_LOOP.canvas",
+                "file": "Untitled.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from EVENT_LOOP"
+              "title": "Outgoing links from Untitled"
             }
           },
           {
-            "id": "c405915204e22ff4",
+            "id": "b7544517d9400a39",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -154,7 +133,7 @@
             }
           },
           {
-            "id": "a5347ec8a420391b",
+            "id": "6685bde572111359",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -168,18 +147,18 @@
             }
           },
           {
-            "id": "7f7894f621858f80",
+            "id": "0c620a4510bdcb8d",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "language_specs/Js/Node/EVENT_LOOP.canvas",
+                "file": "Untitled.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of EVENT_LOOP"
+              "title": "Outline of Untitled"
             }
           }
         ]
@@ -200,27 +179,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "e94dcf376f0959b7",
+  "active": "69dfff0f20ba288a",
   "lastOpenFiles": [
-    "language_specs/Js/Node/worker_thread.md",
-    "language_specs/Js/Node/Questions.canvas",
-    "language_specs/Js/Node/EVENT_LOOP.canvas",
-    "Pasted image 20260402170001.png",
-    "database/Sql/Principals/DEADLOCK_TIMEOUT.md",
-    "database/Sql/Principals/ACID.canvas",
-    "database/Sql/Principals/EXPLAIN ANALYZE.md",
-    "database/Sql/Principals/INDEX.canvas",
-    "database/Sql/Principals/SQL vs NoSql.canvas",
-    "readme.md",
-    "database/Sql/Principals",
-    "database/Sql/PgSql",
-    "database/Sql",
-    "language_specs/Js/TypeScriptSpecs",
-    "language_specs/Js/JavascriptSpecs",
-    "language_specs/Js/Node",
-    "language_specs/Js",
-    "Untitled",
-    "language_specs",
-    "microservices"
+    "Untitled.md",
+    "Untitled.base",
+    "2026-04-03.md",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "Welcome.md",
+    "Untitled"
   ]
 }
