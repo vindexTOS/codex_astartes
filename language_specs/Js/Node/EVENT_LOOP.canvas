@@ -1,0 +1,31 @@
+{
+	"nodes":[
+		{"id":"a12d7432979f3e08","type":"text","text":"V8 ENGINGE","x":-1160,"y":-520,"width":343,"height":380,"color":"1"},
+		{"id":"7c9ad38c10432913","type":"text","text":"Event loop","x":120,"y":-337,"width":250,"height":60,"color":"1"},
+		{"id":"c400a8bec97b404b","type":"text","text":"Nodejs bindings\n\nOS Operations","x":-760,"y":-520,"width":250,"height":380},
+		{"id":"795fa5dd618251a1","type":"text","text":"Application","x":-1113,"y":-680,"width":250,"height":60},
+		{"id":"f270b8bb21651efc","type":"text","text":"Event Queue","x":-360,"y":-520,"width":250,"height":305},
+		{"id":"c870d18de02d14f6","type":"text","text":"# LIBUV\n\nThread pool\n\nFile system\n\nNetwork\n\nprocess\n\n","x":800,"y":-418,"width":400,"height":278},
+		{"id":"4a982af46193064c","type":"text","text":"### **Networking (net, http, https, dgram)**\n\nThis is why Node.js is so fast at web servers.\n\n- `http.createServer()` / `server.listen()`\n    \n- `socket.on('data', ...)`\n    \n- `https.request()`\n    \n- `db.query()` (Most DB drivers like `pg` or `mysql2` use non-blocking network sockets).","x":470,"y":-1120,"width":730,"height":380},
+		{"id":"92756b923769b7a0","type":"text","text":"### **Compression (zlib)**\n\nAnything involving data shrinking/expanding.\n\n- `zlib.gzip()` / `zlib.gunzip()`\n    \n- `zlib.deflate()` / `zlib.inflate()`","x":1280,"y":-40,"width":438,"height":220},
+		{"id":"a71da723adc4b9ab","type":"text","text":"### **Cryptography (crypto)**\n\nCPU-intensive mathematical calculations.\n\n- `crypto.pbkdf2()` (Password hashing)\n    \n- `crypto.scrypt()`\n    \n- `crypto.randomBytes()`\n    \n- `crypto.createHash()`","x":1320,"y":-388,"width":480,"height":248},
+		{"id":"245223f5d5755b5d","type":"text","text":"### **File System (fs)**\n\nAlmost all asynchronous `fs` methods use the thread pool.\n\n- `fs.readFile()` / `fs.writeFile()`\n    \n- `fs.stat()`\n    \n- `fs.readdir()`","x":1320,"y":-731,"width":480,"height":223},
+		{"id":"36eedad85d4b3041","type":"text","text":"# PENDING","x":120,"y":265,"width":320,"height":50},
+		{"id":"3a97a30e65957596","type":"text","text":"# POLL","x":120,"y":345,"width":320,"height":50},
+		{"id":"51732ee47b2d1354","type":"text","text":"# TIMERS","x":120,"y":180,"width":320,"height":50},
+		{"id":"09e3388b8269b90c","type":"text","text":"# CHECK\n","x":120,"y":425,"width":320,"height":50},
+		{"id":"92b4fd50d1d3fb23","type":"text","text":"# CLOSE\n","x":120,"y":520,"width":320,"height":50}
+	],
+	"edges":[
+		{"id":"38e6935340484e01","fromNode":"f270b8bb21651efc","fromSide":"right","toNode":"7c9ad38c10432913","toSide":"top"},
+		{"id":"eaab9e9aaa79661f","fromNode":"c870d18de02d14f6","fromSide":"bottom","toNode":"7c9ad38c10432913","toSide":"bottom","label":"Execute callbacks"},
+		{"id":"96f03a4dc288e89f","fromNode":"7c9ad38c10432913","fromSide":"bottom","toNode":"f270b8bb21651efc","toSide":"bottom"},
+		{"id":"981db11132c7e8f5","fromNode":"a12d7432979f3e08","fromSide":"right","toNode":"c400a8bec97b404b","toSide":"left"},
+		{"id":"59c385c8105a53a9","fromNode":"c400a8bec97b404b","fromSide":"right","toNode":"f270b8bb21651efc","toSide":"left"},
+		{"id":"73914df147ac9837","fromNode":"795fa5dd618251a1","fromSide":"bottom","toNode":"a12d7432979f3e08","toSide":"top"},
+		{"id":"fc776008289b5b29","fromNode":"7c9ad38c10432913","fromSide":"top","toNode":"c870d18de02d14f6","toSide":"top","label":"Blocking operations"},
+		{"id":"4cc48c1553e0cd67","fromNode":"c870d18de02d14f6","fromSide":"right","toNode":"245223f5d5755b5d","toSide":"left"},
+		{"id":"ee3230c9451faa9c","fromNode":"c870d18de02d14f6","fromSide":"right","toNode":"a71da723adc4b9ab","toSide":"left"},
+		{"id":"d46165a3ab072e6d","fromNode":"c870d18de02d14f6","fromSide":"right","toNode":"92756b923769b7a0","toSide":"left"}
+	]
+}
