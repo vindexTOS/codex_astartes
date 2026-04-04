@@ -13,15 +13,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "language_specs/Js/Node/Questions.canvas",
+                "file": "database/Sql/Principals/NORMALIZATION.canvas",
                 "viewState": {
-                  "x": -2869.3831679016253,
-                  "y": -1587.4252913824007,
-                  "zoom": -2.666666666666666
+                  "x": 363.833984375,
+                  "y": 496.4528905008868,
+                  "zoom": -1.5167765299479168
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Questions"
+              "title": "NORMALIZATION"
             }
           },
           {
@@ -95,7 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 501.5
+    "width": 300
   },
   "right": {
     "id": "2ae3556d5f8f156f",
@@ -200,17 +200,20 @@
       "bases:Create new base": false
     }
   },
-  "active": "e94dcf376f0959b7",
+  "active": "db007e6f7bdbb891",
   "lastOpenFiles": [
-    "language_specs/Js/Node/worker_thread.md",
-    "language_specs/Js/Node/Questions.canvas",
-    "language_specs/Js/Node/EVENT_LOOP.canvas",
-    "Pasted image 20260402170001.png",
-    "database/Sql/Principals/DEADLOCK_TIMEOUT.md",
-    "database/Sql/Principals/ACID.canvas",
-    "database/Sql/Principals/EXPLAIN ANALYZE.md",
+    "Pasted image 20260403150754.png",
     "database/Sql/Principals/INDEX.canvas",
+    "database/Sql/Principals/NORMALIZATION.canvas",
     "database/Sql/Principals/SQL vs NoSql.canvas",
+    "database/Sql/Principals/ACID.canvas",
+    "database/Sql/Principals/DEADLOCK_TIMEOUT.md",
+    "database/Sql/Principals/EXPLAIN ANALYZE.md",
+    "language_specs/Js/Node/Questions.canvas",
+    "language_specs/Js/Node/worker_thread.md",
+    "language_specs/Js/Node/EVENT_LOOP.canvas",
+    "codex",
+    "Pasted image 20260402170001.png",
     "readme.md",
     "database/Sql/Principals",
     "database/Sql/PgSql",
@@ -220,7 +223,6 @@
     "language_specs/Js/Node",
     "language_specs/Js",
     "Untitled",
-    "language_specs",
-    "microservices"
+    "language_specs"
   ]
 }
