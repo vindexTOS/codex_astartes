@@ -1,0 +1,38 @@
+{
+	"nodes":[
+		{"id":"47ed39bcef81087a","type":"text","text":"Client","x":-1080,"y":350,"width":250,"height":60,"color":"1"},
+		{"id":"9eb6b5b240f56ea5","type":"text","text":"DB","x":260,"y":500,"width":250,"height":60},
+		{"id":"21a087b21461fad7","x":-1080,"y":193,"width":250,"height":60,"type":"text","text":"Client"},
+		{"id":"9c98c1bc0386f232","x":-380,"y":193,"width":250,"height":60,"color":"4","type":"text","text":"API"},
+		{"id":"c58ef248c75e94bd","type":"text","text":"DB","x":260,"y":340,"width":250,"height":60,"color":"4"},
+		{"id":"ef49cd23d4a947e5","x":260,"y":193,"width":250,"height":60,"type":"text","text":"DB"},
+		{"id":"949b43c849f0c318","type":"text","text":"API  ერრორი, ნეტვორკ ლეთენცის გამო ან სხვა მიზეზით","x":-380,"y":340,"width":250,"height":100,"color":"1"},
+		{"id":"61b0e866197eb55d","type":"text","text":"API","x":-380,"y":500,"width":250,"height":60,"color":"4"},
+		{"id":"73fe8cfdfbc95a50","type":"text","text":"Client","x":-1080,"y":500,"width":250,"height":60},
+		{"id":"db51c14281722cde","x":-860,"y":-180,"width":1090,"height":220,"type":"text","text":"Idempotency ვაზღვევთ network-ერორიდან ან გაუთვალისწენებელი შეცდომიდან გამოწვეულ დუპლიკაციას კლიენტის მხარეს, თუ მოომხარებელმა დააჭირა ყიდვის ღილაკს ხელი, ბაზაზე მოხდა აფდეითი, მაგრამ გაურკვეველი მიზეზის გამო მას დაუბრუნდა ერრორი, ის მეორედ დააჭერს ხელს ორდერის ღილაკს, რაც გამოიწვევს დუპლიკაციას, ამის მოსაგვარებლად ჩვენ ვქმნით Idempotency  key-ის რომელიც შეგვიძლია შევქმნათ post body ის ჰეშირებით, შევინახოთთ ის ბაზაზე ან რედისზე, მეორე რექვესტის შემოსვლის დროს თუ ეს Idempotency  key იქნება იგივე რაც უკვე გვაქვს, მომხარებელს უბრალოდ დავუბურნებთთ წარმატების მესიჯს , Idempotency  key შენახვის ხანგრძლივობა გააჩნია აპლიკაციას, ის შეგვიძლია შევინახოთთ როგორც მთავარ ბაზაზე ისე ქეში"},
+		{"id":"81cbd9e2270dc67f","x":-380,"y":80,"width":250,"height":60,"type":"text","text":"მაგალითი"},
+		{"id":"d511f30e9051b63e","x":-378,"y":716,"width":298,"height":50,"type":"text","text":" Idempotency  key გამოყენება"},
+		{"id":"997f15e41f41e627","type":"text","text":"Client","x":-1070,"y":1033,"width":250,"height":60},
+		{"id":"4128147b2b1b4f0c","type":"text","text":"DB","x":270,"y":1033,"width":250,"height":60},
+		{"id":"dd82bdddd6d58683","type":"text","text":"Client","x":-1070,"y":1250,"width":250,"height":60,"color":"1"},
+		{"id":"f04ad976c6cdafda","type":"text","text":"DB","x":270,"y":1240,"width":250,"height":60,"color":"4"},
+		{"id":"d1e4d28eb74662d9","type":"text","text":"API\n  body დაჰაშვა და მისი შენახვა როგორც გასაღებად, key:value \nHash: Success messagee\nწარმატებით ჩაწერის შემთხვევაში","x":-370,"y":960,"width":250,"height":220,"color":"4"},
+		{"id":"6ee9e49fa6e7ac3a","type":"text","text":"API ","x":-354,"y":1245,"width":250,"height":70,"color":"1"},
+		{"id":"8c66d8e995c8559d","type":"text","text":"DB","x":260,"y":1480,"width":250,"height":60},
+		{"id":"cfa0dd908781472a","type":"text","text":"API body hash ის ამოღება და გადამოწმება რედისზე ან ბაზაში, თუ ის არსებობს, დაუყონებლივ დავუბრუნებთ პასუხს მომხარებელს , და  ბ აზაზე არაფერს არ ჩავწერთ","x":-354,"y":1340,"width":300,"height":220,"color":"4"},
+		{"id":"c475016b6e4420e5","type":"text","text":"Client","x":-1070,"y":1420,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"5f907e081982ecaf","fromNode":"21a087b21461fad7","fromSide":"right","toNode":"9c98c1bc0386f232","toSide":"left","color":"4","label":"ბოოდის გამგოზავნა"},
+		{"id":"d2cbfd1c136b1f33","fromNode":"9c98c1bc0386f232","fromSide":"right","toNode":"ef49cd23d4a947e5","toSide":"left","color":"4","label":"ინსერტი"},
+		{"id":"4ed5bae4a9fea17f","fromNode":"c58ef248c75e94bd","fromSide":"left","toNode":"949b43c849f0c318","toSide":"right","color":"4","label":"წარმატტებით \nჩაწერა"},
+		{"id":"a2da030a081107f8","fromNode":"949b43c849f0c318","fromSide":"left","toNode":"47ed39bcef81087a","toSide":"right","color":"1","label":"ერორ მესიჯი მომხარებელს"},
+		{"id":"2dc9444372c03b21","fromNode":"61b0e866197eb55d","fromSide":"right","toNode":"9eb6b5b240f56ea5","toSide":"left","color":"4","label":"დუპლიკატ ინსერტი"},
+		{"id":"44d8af8308a1ffff","fromNode":"73fe8cfdfbc95a50","fromSide":"right","toNode":"61b0e866197eb55d","toSide":"left","color":"4","label":"მეორედ გამოგზავნა"},
+		{"id":"6a30405bed52dfa7","fromNode":"997f15e41f41e627","fromSide":"right","toNode":"d1e4d28eb74662d9","toSide":"left","color":"4","label":"ბოოდის გამგოზავნა"},
+		{"id":"03ec926be79a7ed6","fromNode":"d1e4d28eb74662d9","fromSide":"right","toNode":"4128147b2b1b4f0c","toSide":"left","color":"4","label":"ინსერტი"},
+		{"id":"9e0d830c2b5b96d3","fromNode":"6ee9e49fa6e7ac3a","fromSide":"left","toNode":"dd82bdddd6d58683","toSide":"right","color":"1","label":"ერორ მესიჯი მომხარებელს"},
+		{"id":"2c8b931714a56aa5","fromNode":"f04ad976c6cdafda","fromSide":"left","toNode":"6ee9e49fa6e7ac3a","toSide":"right","color":"4","label":"წარმატტებით \nჩაწერა"},
+		{"id":"5a92b7b599e58edf","fromNode":"c475016b6e4420e5","fromSide":"right","toNode":"cfa0dd908781472a","toSide":"left","color":"4","label":"მეორედ გამოგზავნა"}
+	]
+}
