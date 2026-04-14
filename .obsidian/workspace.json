@@ -13,15 +13,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "microservices/CAP theorem.canvas",
+                "file": "interview prep/cheat sheets.canvas",
                 "viewState": {
-                  "x": 0,
-                  "y": 498.18359375,
-                  "zoom": 0
+                  "x": 347,
+                  "y": 4761.302307667825,
+                  "zoom": -0.21611335844630133
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "CAP theorem"
+              "title": "cheat sheets"
             }
           },
           {
@@ -95,7 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 501.5
   },
   "right": {
     "id": "2ae3556d5f8f156f",
@@ -202,24 +202,33 @@
   },
   "active": "db007e6f7bdbb891",
   "lastOpenFiles": [
-    "interview prep/Untitled.canvas",
-    "microservices/CAP theorem.canvas",
-    "database/Sql/Principals/NORMALIZATION.canvas",
-    "interview prep",
-    "microservices/Idempotency.canvas",
-    "microservices/Dead Letter Queue DLQ.canvas",
+    "Pasted image 20260414233616.png",
+    "Pasted image 20260414233240.png",
+    "Pasted image 20260414233227.png",
+    "Pasted image 20260414233018.png",
+    "Pasted image 20260414233004.png",
+    "Pasted image 20260414232347.png",
+    "Pasted image 20260414232336.png",
+    "Pasted image 20260414231800.png",
+    "Pasted image 20260414231740.png",
     "Pasted image 20260403150754.png",
-    "database/Sql/Principals/INDEX.canvas",
-    "database/Sql/Principals/SQL vs NoSql.canvas",
-    "database/Sql/Principals/ACID.canvas",
-    "database/Sql/Principals/DEADLOCK_TIMEOUT.md",
-    "database/Sql/Principals/EXPLAIN ANALYZE.md",
+    "interview prep/cheat sheets.canvas",
+    "interview prep",
+    "Microservices/CAP theorem.canvas",
+    "Microservices/Dead Letter Queue DLQ.canvas",
+    "Microservices/Idempotency.canvas",
+    "readme.md",
+    "Microservices",
     "language_specs/Js/Node/Questions.canvas",
+    "database/Sql/Principals/NORMALIZATION.canvas",
     "language_specs/Js/Node/worker_thread.md",
     "language_specs/Js/Node/EVENT_LOOP.canvas",
-    "codex",
     "Pasted image 20260402170001.png",
-    "readme.md",
+    "database/Sql/Principals/DEADLOCK_TIMEOUT.md",
+    "database/Sql/Principals/ACID.canvas",
+    "database/Sql/Principals/EXPLAIN ANALYZE.md",
+    "database/Sql/Principals/INDEX.canvas",
+    "database/Sql/Principals/SQL vs NoSql.canvas",
     "database/Sql/Principals",
     "database/Sql/PgSql",
     "database/Sql",
