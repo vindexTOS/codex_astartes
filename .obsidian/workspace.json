@@ -13,15 +13,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Microservices/Dead Letter Queue DLQ.canvas",
+                "file": "microservices/CAP theorem.canvas",
                 "viewState": {
                   "x": 0,
-                  "y": 400.5,
+                  "y": 498.18359375,
                   "zoom": 0
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Dead Letter Queue DLQ"
+              "title": "CAP theorem"
             }
           },
           {
@@ -95,7 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 501.5
+    "width": 300
   },
   "right": {
     "id": "2ae3556d5f8f156f",
@@ -202,21 +202,24 @@
   },
   "active": "db007e6f7bdbb891",
   "lastOpenFiles": [
-    "Microservices/Idempotency.canvas",
-    "Microservices/Dead Letter Queue DLQ.canvas",
-    "readme.md",
-    "Microservices",
-    "Pasted image 20260403150754.png",
-    "language_specs/Js/Node/Questions.canvas",
+    "interview prep/Untitled.canvas",
+    "microservices/CAP theorem.canvas",
     "database/Sql/Principals/NORMALIZATION.canvas",
-    "language_specs/Js/Node/worker_thread.md",
-    "language_specs/Js/Node/EVENT_LOOP.canvas",
-    "Pasted image 20260402170001.png",
-    "database/Sql/Principals/DEADLOCK_TIMEOUT.md",
-    "database/Sql/Principals/ACID.canvas",
-    "database/Sql/Principals/EXPLAIN ANALYZE.md",
+    "interview prep",
+    "microservices/Idempotency.canvas",
+    "microservices/Dead Letter Queue DLQ.canvas",
+    "Pasted image 20260403150754.png",
     "database/Sql/Principals/INDEX.canvas",
     "database/Sql/Principals/SQL vs NoSql.canvas",
+    "database/Sql/Principals/ACID.canvas",
+    "database/Sql/Principals/DEADLOCK_TIMEOUT.md",
+    "database/Sql/Principals/EXPLAIN ANALYZE.md",
+    "language_specs/Js/Node/Questions.canvas",
+    "language_specs/Js/Node/worker_thread.md",
+    "language_specs/Js/Node/EVENT_LOOP.canvas",
+    "codex",
+    "Pasted image 20260402170001.png",
+    "readme.md",
     "database/Sql/Principals",
     "database/Sql/PgSql",
     "database/Sql",
@@ -224,7 +227,6 @@
     "language_specs/Js/JavascriptSpecs",
     "language_specs/Js/Node",
     "language_specs/Js",
-    "language_specs",
-    "microservices"
+    "language_specs"
   ]
 }
