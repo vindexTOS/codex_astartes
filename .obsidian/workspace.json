@@ -11,17 +11,14 @@
             "id": "db007e6f7bdbb891",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "microservices/CAP theorem.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 498.18359375,
-                  "zoom": 0
-                }
+                "file": "interview prep/Why.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "CAP theorem"
+              "icon": "lucide-file",
+              "title": "Why"
             }
           },
           {
@@ -36,6 +33,23 @@
               },
               "icon": "lucide-file",
               "title": "worker_thread"
+            }
+          },
+          {
+            "id": "955eaf61bd95203f",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "database/Sql/Principals/ACID.canvas",
+                "viewState": {
+                  "x": 878.4933974391236,
+                  "y": 353.5994903803809,
+                  "zoom": -0.9769311515797147
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "ACID"
             }
           }
         ]
@@ -203,6 +217,16 @@
   "active": "db007e6f7bdbb891",
   "lastOpenFiles": [
     "interview prep/cheat sheets.canvas",
+    "interview prep/Why.md",
+    "microservices/Idempotency.canvas",
+    "database/Sql/Principals/INDEX.canvas",
+    "database/Sql/Principals/EXPLAIN ANALYZE.md",
+    "database/Sql/Principals/DEADLOCK_TIMEOUT.md",
+    "database/Sql/Principals/NORMALIZATION.canvas",
+    "database/Sql/Principals/SQL vs NoSql.canvas",
+    "database/Sql/Principals/ACID.canvas",
+    "Screenshot 2026-04-16 at 13.32.35.png",
+    "microservices/CAP theorem.canvas",
     "Pasted image 20260414233616.png",
     "Pasted image 20260414233240.png",
     "Pasted image 20260414233227.png",
@@ -213,20 +237,10 @@
     "Pasted image 20260414231800.png",
     "Pasted image 20260414231740.png",
     "interview prep/Untitled.canvas",
-    "microservices/CAP theorem.canvas",
-    "database/Sql/Principals/NORMALIZATION.canvas",
     "interview prep",
-    "microservices/Idempotency.canvas",
     "microservices/Dead Letter Queue DLQ.canvas",
-    "Pasted image 20260403150754.png",
-    "database/Sql/Principals/INDEX.canvas",
-    "database/Sql/Principals/SQL vs NoSql.canvas",
-    "database/Sql/Principals/ACID.canvas",
-    "database/Sql/Principals/DEADLOCK_TIMEOUT.md",
-    "database/Sql/Principals/EXPLAIN ANALYZE.md",
     "language_specs/Js/Node/Questions.canvas",
     "language_specs/Js/Node/worker_thread.md",
-    "language_specs/Js/Node/EVENT_LOOP.canvas",
     "codex",
     "readme.md",
     "database/Sql/Principals",
